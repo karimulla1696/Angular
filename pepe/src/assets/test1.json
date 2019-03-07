@@ -1,0 +1,27 @@
+[
+    {
+  "id":1,
+  "empname":"karimulla",
+  "salary":10000,
+   "Designation":"Developer"
+    },
+    {
+        "id":2,
+        "empname":"Kalyan",
+        "salary":20000,
+         "Designation":"Developer"
+    },
+    {
+        "id":3,
+        "empname":"Anil",
+        "salary":30000,
+         "Designation":"Developer"
+    },
+    {
+        "id":4,
+        "empname":"Manjoor",
+        "salary":30000,
+         "Designation":"Developer"
+    }
+
+]

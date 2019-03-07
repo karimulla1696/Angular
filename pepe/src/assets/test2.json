@@ -1,0 +1,27 @@
+[
+    {
+  "Rollno":1,
+  "stdname":"karimulla",
+  "Course":"mean stack",
+   "Designation":"Developer"
+    },
+    {
+        "Rollno":2,
+        "stdname":"Kalyan",
+        "Course":"mean stack",
+         "Designation":"Developer"
+    },
+    {
+        "Rollno":3,
+        "stdname":"Anil",
+        "Course":"mean stack",
+         "Designation":"Developer"
+    },
+    {
+        "Rollno":4,
+        "stdname":"Manjoor",
+        "Course":"mean stack",
+         "Designation":"Developer"
+    }
+
+]

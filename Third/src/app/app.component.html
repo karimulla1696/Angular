@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row">
+    <div class="col-4">
+    <label>Enter a First Number</label>
+    <input type="text" name="first name" class="form-control" #ref1>
+    <label>Enter a Second Number</label>
+    <input type="text" class="form-control" #ref2>
+    <button type="button" name="second name" class="btn btn-danger mt-1 mr-1" data-target="#k" data-toggle="collapse"(click)="add(ref1.value,ref2.value)">+</button>
+    <button type="button" name="second name" class="btn btn-danger mt-1 mr-1" data-target="#l" data-toggle="collapse" (click)="sub(ref1.value,ref2.value)">-</button>
+    <button type="button" name="second name" class="btn btn-danger mt-1 mr-1" data-target="#m" data-toggle="collapse" (click)="div(ref1.value,ref2.value)">/</button>
+    <button type="button" name="second name" class="btn btn-danger mt-1 mr-1" data-target="#n" data-toggle="collapse" (click)="mul(ref1.value,ref2.value)">*</button>
+  </div>
+</div>
+</div>
+<div id="x">
+  <div class="collapse" id="k" data-parent="#x">
+      <p  class="mt-2" style="padding-left:200px">Sum is:{{a}}</p>
+  </div>
+  <div class="collapse" id="l" data-parent="#x">
+      <p  class="mt-2" style="padding-left:200px">Sub is:{{b}}</p>
+  </div>
+  <div class="collapse" id="m" data-parent="#x">
+      <p  class="mt-2" style="padding-left:200px">div is:{{c}}</p>
+  </div>
+  <div class="collapse" id="n" data-parent="#x">
+      <p  class="mt-2" style="padding-left:200px">mul is:{{d}}</p>
+  </div>
+</div>
+
+

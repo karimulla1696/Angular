@@ -1,0 +1,24 @@
+<div class="container">
+    <!-- <div>
+      <input type="text" class="searchTerm" [(ngModel)]="searchTerm">
+    </div> -->
+    <div class="mt-3">
+      <table class="table table-striped table-hover table-warning">
+        <thead class="thead-dark">
+          <th>Id</th>
+          <th>EmpName</th>
+          <th>Salary</th>
+          <th>Designation</th>
+        </thead>
+        <tr class="table-warning" *ngFor="let i of dataStd;let in=index">
+          <td>{{i.id}}</td>
+          <td>{{i.empname}}</td>
+        
+          <td>{{i.salary}}</td>
+          <td>{{i.Designation}}</td>
+
+         
+        </tr>
+      </table>
+    </div>
+  </div>

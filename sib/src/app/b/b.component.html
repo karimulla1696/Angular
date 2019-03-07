@@ -1,0 +1,10 @@
+
+
+   <form #ref='ngForm' (ngSubmit)="sendToA(ref.value)">
+      <div class="form-group">
+      <label>Enter data</label>
+      <input type="text" class="form-control" name="name" [(ngModel)]="name">
+      <button type="submit" class="btn btn-success mt-2">Send to A</button>
+    </div>
+    </form>
+  Data is {{data.name}}
